@@ -12,7 +12,7 @@ let messages = [
 "sublimation in aries, mars, fire",
 "suspension in taurus, earth",
 "incineration in geminis, air",
-"fermentation in cancer, water",
+"fermentation in cancer, water, the lovers, from saturn to the sun",
 "multiplication in leo, fire",
 "projection in virgo, earth",
 ]; 
@@ -25,7 +25,8 @@ const ramdomNumber = () =>{
 };
 
 const mensaje = () =>{
-    return messages[ramdomNumber()];
+    let numero = ramdomNumber();
+    return messages[numero];
 };
 
 //mensaje();
