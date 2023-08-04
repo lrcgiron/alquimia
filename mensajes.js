@@ -15,13 +15,14 @@ let messages = [
 "fermentation in cancer, water, the lovers, from saturn to the sun",
 "multiplication in leo, fire",
 "projection in virgo, earth"
+"cycling through the elements in a predefined order"
 ]; 
 
 
 //generate random number between 1 and 12 to select message
 
 const ramdomNumber = () =>{
- return Math.floor((Math.random() * 12) + 1);
+ return Math.floor((Math.random() * 13) + 1);
 };
 
 const mensaje = () =>{
