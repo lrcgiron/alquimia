@@ -14,15 +14,16 @@ let messages = [
 "incineration in geminis, air",
 "fermentation in cancer, water, the lovers, from saturn to the sun",
 "multiplication in leo, fire",
-"projection in virgo, earth"
-"cycling through the elements in a predefined order"
+"projection in virgo, earth",
+"cycling through the elements in a predefined order",
+"mirror scrying is the key to strengthen the self-symbol"
 ]; 
 
 
-//generate random number between 1 and 12 to select message
+//generate random number between 1 and 13 to select message
 
 const ramdomNumber = () =>{
- return Math.floor((Math.random() * 13) + 1);
+ return Math.floor((Math.random() * 14) + 1);
 };
 
 const mensaje = () =>{
